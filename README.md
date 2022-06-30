@@ -1,23 +1,22 @@
 # Adviser
 焦健
+
 # Group Members
-刘瑞翔
 
-李晓东
+[刘瑞翔](https://github.com/lrx-joker)
 
-陈科瑞
+[陈科瑞](https://github.com/EricLink1)
 
-戴家兴
+[李晓东](https://github.com/kleinPerman) 
 
-孟令一
+[戴家兴](https://github.com/AsunaYumeko)  
+
+[孟令一](https://github.com/Mmly2)  
 
 # Roles and responsibilities of the team
 代码开发：陈科瑞
-
 项目构思：刘瑞翔
-
 项目文档：戴家兴 李晓东
-
 ppt撰写：孟令一
 
 # Project Introduction
@@ -40,5 +39,4 @@ ppt撰写：孟令一
 
 ## 若有其他问题请联系
 qq：2742001262
-
 邮箱：2742001262@qq.com
