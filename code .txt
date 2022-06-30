@@ -1,0 +1,74 @@
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        try {
+            retrieval triangle = new retrieval(sc.next());
+            System.out.println(triangle);
+        } catch (IllegalTriangleException e) {
+        }
+    }
+}
+class retrieval {
+    private String s;
+    private String a="病毒入侵";
+    private String b="防护措施";
+    private String c="安全测试";
+
+    public retrieval() {
+    }
+
+    public retrieval(String s) throws IllegalTriangleException {
+        if(s.equals(a)||s.equals(b)||s.equals(c)) {
+            this.s=s;
+        }
+        else
+            throw new IllegalTriangleException(s);
+    }
+    public String toString(){
+        if(s.equals(a))
+            return """
+                    1.不要重启
+                    2.立急断开网络
+                    3.备份重要文件4.全面杀毒
+                    5.更改重要资料设定
+                    6.检查网上邻居""";
+        if(s.equals(b))
+            return """
+                    1.访问控制策略
+                    2.网络权限控制策略
+                    3.建立网络服务器安全设置
+                    4.信息加密策略""";
+            return """
+                    1.静态代码检查
+                    2.动态渗透测试
+                    3.扫描程序中的数据
+                    4.用户认证安全性测试
+                    """;
+    }
+
+    public String getA() {
+        return a;
+    }
+    public void setA(String a) {
+        this.a = a;
+    }
+    public String getB() {
+        return b;
+    }
+    public void setB(String b) {
+        this.b = b;
+    }
+    public String getC() {
+        return c;
+    }
+    public void setC(String c) {
+        this.c = c;
+    }
+}
+class IllegalTriangleException extends Exception{
+    public IllegalTriangleException(String s) {
+        System.out.println("系统暂时无法识别您的搜索信息！");
+    }
+}
