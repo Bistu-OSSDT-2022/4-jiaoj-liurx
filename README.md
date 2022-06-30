@@ -2,15 +2,22 @@
 焦健
 # Group Members
 刘瑞翔
+
 李晓东
+
 陈科瑞
+
 戴家兴
+
 孟令一
 
 # Roles and responsibilities of the team
 代码开发：陈科瑞
+
 项目构思：刘瑞翔
+
 项目文档：戴家兴 李晓东
+
 ppt撰写：孟令一
 
 # Project Introduction
@@ -33,4 +40,5 @@ ppt撰写：孟令一
 
 ## 若有其他问题请联系
 qq：2742001262
+
 邮箱：2742001262@qq.com
